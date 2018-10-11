@@ -1,0 +1,18 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdftex 2018.10.11)  11 OCT 2018 14:05
+entering extended mode
+**"./Problem Statement.tex"
+("Problem Statement.tex"
+! Undefined control sequence.
+l.1 \documentclass
+                  [onecolumn, draftclsnofoot,10pt, compsoc]{IEEEtran}
+? 
+! Undefined control sequence.
+l.2 \usepackage
+               {graphicx}
+? x
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
