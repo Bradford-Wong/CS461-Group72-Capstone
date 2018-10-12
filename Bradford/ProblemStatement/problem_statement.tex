@@ -1,0 +1,43 @@
+\documentclass[journal,10pt,onecolumn,draftclsnofoot,]{IEEEtran}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[a4paper,bindingoffset=0.2in,%
+            left=.75in,right=1in,top=.75in,bottom=.75in,%
+            footskip=.25in]{geometry}
+
+\title{Android Application to Support Field Diagnostics Project}
+
+\author{Bradford Wong}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+
+
+\section{abstract}
+\label{sec:abstract}
+Currently, there are many difficulties with trying to perform remote diagnostics. There aren’t any effective ways for people out in the field collecting samples to communicate with specialized experts located in laboratories. As a result, this project will involve creating an android mobile application that will be used as a bridge to connect the field personnel with the veterinary pathologists in laboratories. With this mobile application, the field personnel will be able to take pictures of the individual that is being analyzed and then send the pictures along with other data such as the patient, location, and time to a pathologist. The pathologist will then be able to use the provided information to perform a necropsy and send feedback to the field personnel. This project is intended to improve remote field diagnostics in veterinary medicine.
+
+
+\section{Definition}
+\label{sec:introduction}
+
+The purpose of this project is to fix the disconnect and communication issues that are caused when necropsies are performed in areas far away from a laboratory. Necropsies, which are the autopsies of non-human species, are critical for a variety of reasons. These reasons include identifying diseases and cause of death, determining patterns of diseases among a group of individuals, and tracking how diseases develop over a specific area. The problem is that performing necropsies outside of laboratories can give rise to a range of issues. For instance, findings from the necropsies can be misinterpreted and not all samples for additional testing might not have been collected before hand. As a result, critical steps to protect animal and human health and mitigate potential health issues would not be taken. There currently is not an effective way for someone in the laboratory to send useful feedback to someone who is out in the field and collecting samples. Additionally, identifying and categorizing lesions during the necropsy requires individuals with specialty knowledge and training such as veterinary pathologists. Currently, necropsies can’t always be conveniently performed because there aren’t means of effective communication that would connect personnel who are out in the field and the veterinary pathologists situated at laboratories. The primary purpose of this project is to provide underserved location such as rural areas the opportunity to receive aid from remote veterinary pathologists.
+
+\section{Proposed solution}
+\label{sec:theory}
+The goal of this project is to deal with the disconnect and create an effective means of communication between the on-the-ground field personnel and the veterinary pathologists in laboratories. To be more specific, this project will involve implementing an android mobile application that will be used to support remote field diagnostics in veterinary medicine. This mobile application will involve collecting image and data from necropsies performed at the Oregon Veterinary Diagnostic Laboratory in the College of Veterinary Medicine at Oregon State University’s campus and in the field. The data collected through the android application will be stored in a database architectured designed for a set of images that will be taken from an android device’s built-in camera. These images along with data including information like patient, location, time, and additional text entries will be compiled into a report that users will be able to send to other users. Additionally, pathologists will be using this application as a way to communicate their feedback to the person in the field. This will improve the team’s ability to to identify lesions and make recommendations about collecting additional samples for more testing. Users will be able to use this android application in real time when they’re connected to the database and independently, which includes areas with limited phone or satellite service. Pathologists will also be able to evaluate images based on color discrimination, sharpness, brightness, and satisfaction of the relevant region. An interface will also be developed to link the application with the database. The database will be easily expandable and searchable.
+
+It is important to note that this project is meant to be a prototype. This means that the team may adopt additional new features to implement if it is feasible within scope of the project. This could include implementing a feature of the application that would instantaneously provide feedback of the image taken and reject images with poor lighting, saturation and contrast. Again, since this project is intended to be a prototype, it is certainly possible that additional features like this one won’t be delivered by the end of the project date.
+
+\section{Performance metrics}
+\label{sec:theory}
+	The project will be considered complete upon having a working prototype that contains required features. There will have to be a working android application that can successfully interact with a database. The android application will need to have the capability of creating a report by providing an image taken from an android device’s on-board camera and data such as location, patient, time, and any additional text entries. Also, the app will need to be able to send the details of the report to another user. The user who receives the report will need to be able to view it and send feedback to the person who initially sent the report. Additionally, users will need to be able to login and logout of the application. Only users who are logged in will be able to view and send reports. Furthermore, the application will need to be able to function whether or not the user has a stable internet connection. If there is a stable connection, then the user should be able to successfully send the report to the intended target. If there is not a stable connection, then the application should wait and send the report when there is a connection. The database will be fairly limited for this prototype, but it will need to be easily updated and it should also be easily searchable. Users will only be able to see reports that they have made and reports that were sent to them.
+
+
+\end{document}
