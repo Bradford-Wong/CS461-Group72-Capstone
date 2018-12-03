@@ -1,0 +1,176 @@
+\documentclass[onecolumn, draftclsnofoot,10pt, compsoc]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{geometry}
+\geometry{textheight=9.5in, textwidth=7in}
+
+% 1. Fill in these details
+\def \CapstoneTeamName{		Malsano}
+\def \CapstoneTeamNumber{		72}
+\def \GroupMemberOne{			Katherine Jeffrey}
+\def \GroupMemberTwo{			Brandon Jolly}
+\def \GroupMemberThree{			Bradford Wong}
+\def \CapstoneProjectName{		App to Support Field Diagnostics in Veterinary Medicine}
+\def \CapstoneSponsorCompany{	Oregon Veterinary Diagnostics Laboratory}
+\def \CapstoneSponsorPerson{		Professor Christiane Loehr}
+
+% 2. Uncomment the appropriate line below so that the document type works
+\def \DocType{		%Problem Statement
+				%Requirements Document
+				%Technology Review
+				Progress Update
+				%Progress Report
+				}
+			
+\newcommand{\NameSigPair}[1]{\par
+\makebox[2.75in][r]{#1} \hfil 	\makebox[3.25in]{\makebox[2.25in]{\hrulefill} \hfill		\makebox[.75in]{\hrulefill}}
+\par\vspace{-12pt} \textit{\tiny\noindent
+\makebox[2.75in]{} \hfil		\makebox[3.25in]{\makebox[2.25in][r]{Signature} \hfill	\makebox[.75in][r]{Date}}}}
+% 3. If the document is not to be signed, uncomment the RENEWcommand below
+\renewcommand{\NameSigPair}[1]{#1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{titlepage}
+    \pagenumbering{gobble}
+    \begin{singlespace}
+    	%\includegraphics[height=4cm]{coe_v_spot1.eps}
+        \hfill 
+        % 4. If you have a logo, use this includegraphics command to put it on the coversheet.
+        %\includegraphics[height=4cm]{CompanyLogo}   
+        \par\vspace{.2in}
+        \centering
+        \scshape{
+            \huge CS Capstone \DocType \par
+            {\large\today}\par
+            \vspace{.5in}
+            \textbf{\Huge\CapstoneProjectName}\par
+            \vfill
+            {\large Prepared for}\par
+            \Huge \CapstoneSponsorCompany\par
+            \vspace{5pt}
+            {\Large\NameSigPair{\CapstoneSponsorPerson}\par}
+            {\large Prepared by }\par
+            Group\CapstoneTeamNumber\par
+            % 5. comment out the line below this one if you do not wish to name your team
+            \CapstoneTeamName\par 
+            \vspace{5pt}
+            {\Large
+                \NameSigPair{\GroupMemberOne}\par
+                \NameSigPair{\GroupMemberTwo}\par
+                \NameSigPair{\GroupMemberThree}\par
+            }
+            \vspace{20pt}
+        }
+        \begin{abstract}
+        % 6. Fill in your abstract    
+        	Currently, there are many difficulties for veterinary pathologists trying to perform remote diagnostics. There are not any effective ways for people out in the field collecting samples to communicate with specialized experts located in laboratories. As a result, this project will involve creating an android mobile application that will be used as a bridge to connect the field personnel with the veterinary pathologists in laboratories. With this mobile application, the field personnel will be able to take pictures of the individual that is being analyzed and then send the pictures along with other data such as the patient, location, and time to a pathologist. The pathologist will then be able to use the provided information to perform a necropsy and send feedback to the field personnel. This project is intended to support remote field diagnostics in veterinary medicine.
+        \end{abstract}     
+    \end{singlespace}
+\end{titlepage}
+\newpage
+\pagenumbering{arabic}
+\tableofcontents
+% 7. uncomment this (if applicable). Consider adding a page break.
+%\listoffigures
+%\listoftables
+\clearpage
+
+% 8. now you write!
+\section{Project Purposes and Goals}
+The Oregon Veterinary Diagnostic Laboratory (OVDL) collaborates with many people remotely to perform necropsies and make diagnoses. The veterinary pathologists in the laboratories need to view the data and images collected at remote locations so they can make a preliminary diagnosis and decide if further action is needed. They need the data to be stored in a way that is accessible to both remote and lab personnel so they can easily find and refer to it. The OVDL wants a native Android mobile app that collects field data and images, sends them to the database and gets real time feedback from the lab. The lab will interact with the database and user's submissions through the website. 
+
+
+\section{Current Progress on Project}
+\subsection{App}
+We have created mockups of all the screens the app will need and they have been approved by the clients. The mockups were changed and improved over several weeks based on feedback from the clients and changes to the overall project plan. We have a timeline detailing when in the year each part of the app will be completed. The tools we will use to build the app and connect it to the database have been chosen. Android Studio, SQLite, and an API are all the tools needed to build the app. Bradford is the team member responsible for overseeing the app development. 
+
+
+\subsection{Database}
+The structure and storage of the database have been decided on. We have an ER Diagram of the database structure. The database will be in MySQL. The clients have a server where it will be stored and an API will connect it to the app and website. The team member responsible for overseeing the database development is Brandon. 
+
+
+\subsection{Website}
+There is a mockup for the website still being developed. The decisions of what the website will do, where it will be hosted, and how the database will connect to it are done. The clients have a server that will host it and the database will connect to it with an API similar to the android app's API. The website will be constructed using the traditional HTML, CSS, and JavaScript tools along with Bootstrap and jquery. Katherine is the team member responsible for overseeing the website's development. ,
+
+
+\section{Problems}
+There was a small problem where the clients were late to one of the meetings, but we called them and we were still able to meet. Other than that, there have been practically no problems with the project so far. 
+
+
+\section{Retrospective}
+\subsection{Weeks 1-3}
+Projects were assigned and the team had our initial meeting. We also set up a meeting with the client, who responded to us quickly. We discussed the project and our upcoming meeting with the client. We also talked about the skills we each have that can contribute to the project. The meeting with the client went very well. We clarified what the project requirements are and received information we can use to start the design process. 
+
+\subsection{Week 4}
+This week we worked on the Problem Statement. Each team member wrote one individually and then we met to combine them into one better document. We used bits of each member’s paper and submitted it early. We also met with our TA for the first time this week. The meeting was short because we did not have any problems or many questions.
+
+
+\subsection{Week 5}
+We worked on the Requirements Document and the database design. We made a rough draft of the app UI flow and set up another meeting with the clients. 
+
+\subsection{Week 6}
+This week the team finished the Requirements Document, the Team Standards Document, and had a design meeting with the clients. Brandon created a database diagram which we edited in the meeting to make sure we were all on the same page and understood the layout. Katherine created mockups of the app UI. We used them during the meeting and the clients had lots of good feedback, changes, and answers to all of our questions. 
+
+\subsection{Week 7}
+This week the team members finished their Tech Reviews individually. We also further developed the UI of the app.
+
+\subsection{Week 8}
+This week we started the Design Document, deciding on who would work on which components and how they would be structured in the document. We worked out a timeline for the rest of the year and decided which parts we would get done for the alpha, beta, and expo releases. We also set up a meeting with our clients for next Monday to finalize design decisions, clear up questions about implementation, and go over plans for next term.
+
+\subsection{Week 9}
+On Monday the team had a meeting with the clients, which the clients misscheduled so they were late. We still got confirmation of our database and app mockups design. We got good feedback on the website as well. The client promised to think of a name for the app and website over the break. The team will work on the design document over break.
+
+\subsection{Week 10}
+This week the team finished the Design Document. We meet up with our client to review the terms we where using in the database are being used as intended. As such during the meeting we showed the current version of the data dictionary to the client and received feedback. We also determined with the client that we would need to start using some test cases to ensure we are collect all of the information and to insure there is a place to store all of the information collected.  
+
+\clearpage
+
+\subsection{Retrospective Table}
+\begin{table}[ht]
+\caption{Retrospective}
+\centering
+
+\begin{tabular}{|>{\centering\arraybackslash}p{0.3\linewidth} |>{\centering\arraybackslash}p{0.3\linewidth} |>{\centering\arraybackslash}p{0.3\linewidth}|}
+\hline 
+    Positives  &   Deltas  & Actions  \\
+\hline
+
+    We met quickly and the clients were responsive and helpful   &   We might need to meet more often next term during implementation   &   We will plan more meetings further in advance\\
+  
+    \hline
+    We were able to create our problem statements earlier to avoid any last minute issues. & Setting a deadline for when we plan to finish the assignment & Follow our Gantt chart and stick to the deadlines we set for ourselves\\ 
+    \hline
+    We were able to complete the requirements document in a timely manner.  & We wanted to be completely clear on what we needed for the database to function.  & Meet with the client to gain more information regarding the database.\\ 
+    \hline
+    We established our team guidelines and who would be the scrum master for next term.  & Changed the design of the app interface and the database based on the feedback given to us during the meetings with the client.  &  Update the designs of our software based on the feedback given to us by the Clients.  \\ 
+    \hline
+    Finished our Tech reviews in a timely manner. & We were not sure what options were available to us. & Determined who would be in charge of which portions of the app.\\ 
+    \hline
+    We completed the Design Doc and received positive feedback from the TA. & The designs were changed based on feedback from the clients and the TA. & We will likely end up changing some of the designs as we start implementation.\\ 
+    \hline
+    The client liked the website mockup and gave us helpful feedback on the design. & The clients misscheduled the meeting but were still able to meet. & The website design will change to include the ideas discussed in the meeting.\\ 
+    \hline
+     Had a meeting with the client to receive any last minute changes to the design document & Updated the data dictionary with new changes proposed during the meetings with the client. & Send the revised design document, requirement document, and the problem statement to the client\\ 
+    \hline
+    
+\end{tabular}
+
+%\begin{tabular}{|p{0.3\linewidth} |p{0.3\linewidth} |p{0.3\linewidth}|}
+ %supposed to use p{0.3\linewidth} 
+%\hline 
+ %   Positives  &   Deltas \centering & Actions  \\
+%\hline
+
+ %   The clients have been responsive and helpful   &   We might need to meet more often next term during implementation   &   We will plan more meetings further in advance\\
+  
+ %   \hline
+  %  \multicolumn{3}{p\linewidth}{this}
+%\end{tabular}
+\end{table}
+
+
+\end{document}
