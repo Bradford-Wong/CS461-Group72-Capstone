@@ -1,0 +1,46 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Android Application}{3}
+\contentsline {subsection}{\numberline {2.1}Home Screen}{3}
+\contentsline {subsection}{\numberline {2.2}NavButton}{4}
+\contentsline {subsection}{\numberline {2.3}Toolbar Menu}{4}
+\contentsline {subsection}{\numberline {2.4}Create Submission Screen}{4}
+\contentsline {subsection}{\numberline {2.5}Adding Pictures Screen}{5}
+\contentsline {subsection}{\numberline {2.6}Past Submissions Screen}{6}
+\contentsline {subsection}{\numberline {2.7}View Submissions Screen}{6}
+\contentsline {subsection}{\numberline {2.8}Settings Screen}{6}
+\contentsline {subsection}{\numberline {2.9}Instructions Screen}{7}
+\contentsline {section}{\numberline {3}Database}{8}
+\contentsline {subsection}{\numberline {3.1}Overview}{8}
+\contentsline {subsection}{\numberline {3.2}Data Dictionary}{8}
+\contentsline {subsection}{\numberline {3.3}Connection between Databases}{11}
+\contentsline {section}{\numberline {4}Website}{11}
+\contentsline {subsection}{\numberline {4.1}Users}{11}
+\contentsline {subsection}{\numberline {4.2}Registration}{12}
+\contentsline {subsection}{\numberline {4.3}Login}{12}
+\contentsline {subsection}{\numberline {4.4}Navigation}{12}
+\contentsline {subsection}{\numberline {4.5}Submissions}{12}
+\contentsline {subsection}{\numberline {4.6}Messaging}{12}
+\contentsline {subsection}{\numberline {4.7}Account}{12}
+\contentsline {subsection}{\numberline {4.8}About}{12}
+\contentsline {section}{\numberline {5}Project Timeline}{13}
+\contentsline {subsection}{\numberline {5.1}Alpha Level Release (Week 6, Winter Term)}{13}
+\contentsline {subsubsection}{\numberline {5.1.1}Overview}{13}
+\contentsline {subsubsection}{\numberline {5.1.2}App Pages}{13}
+\contentsline {subsection}{\numberline {5.2}Beta Level Release (Finals Week, Winter Term)}{14}
+\contentsline {subsubsection}{\numberline {5.2.1}Overview}{14}
+\contentsline {subsubsection}{\numberline {5.2.2}Create Submission Screen}{14}
+\contentsline {subsubsection}{\numberline {5.2.3}Add Picture Screen}{16}
+\contentsline {subsubsection}{\numberline {5.2.4}Submissions Screen}{16}
+\contentsline {subsubsection}{\numberline {5.2.5}Detailed Submission Page}{16}
+\contentsline {subsubsection}{\numberline {5.2.6}User Login}{16}
+\contentsline {subsubsection}{\numberline {5.2.7}Web Application}{16}
+\contentsline {subsection}{\numberline {5.3}Engineering Expo (\nobreakspace {}Week 6, Spring Term)}{16}
+\contentsline {subsubsection}{\numberline {5.3.1}Overview}{16}
+\contentsline {subsubsection}{\numberline {5.3.2}Toolbar menu}{17}
+\contentsline {subsubsection}{\numberline {5.3.3}Drafts}{17}
+\contentsline {subsubsection}{\numberline {5.3.4}Create Submission Screen}{17}
+\contentsline {subsubsection}{\numberline {5.3.5}Adding Pictures Screen}{17}
+\contentsline {subsubsection}{\numberline {5.3.6}Settings Page}{17}
+\contentsline {subsubsection}{\numberline {5.3.7}Instructions Screen}{17}
+\contentsline {section}{\numberline {6}Conclusion}{18}
+\contentsline {section}{\numberline {7}Glossary}{18}
