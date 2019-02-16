@@ -1,0 +1,8 @@
+CREATE TABLE `SUBMISSION` (  
+`master` int(11) NOT NULL,
+
+  `Title` varchar(20) DEFAULT NULL,
+  `DateOfCreation` date DEFAULT NULL,
+
+  PRIMARY KEY (`master`)
+)
