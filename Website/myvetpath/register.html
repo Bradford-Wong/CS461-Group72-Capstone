@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>MyVetPath | Register</title>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="stylesheets/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Caudex" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="myvetpathstyle.css" media="screen">
+  <script src="control.js"></script>
+</head>
+  
+  <body>
+    <div class="container-fluid" style="margin: auto; width: 50%;">
+      <h1 id="header">
+        Register New Account
+      </h1>
+      <p>
+        Create a new account to send remote reports to the lab.
+      </p>
+      <form action="submissions.html">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Confirm Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+        <label for="sel1">Position:</label>
+  <select class="form-control" id="sel1">
+    <option>OVDL Client</option>
+    <option>OVDL Staff</option>
+    <option>OVDL Pathologist</option>
+    <option>Other Client</option>
+    <option>Other Lab Staff</option>
+  </select>
+  <button type="submit" class="btn btn-primary" style="margin-top: 15px;">Register</button>
+</form>
+    </div>
+  </body>
+</html>

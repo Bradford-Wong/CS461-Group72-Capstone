@@ -1,0 +1,21 @@
+
+
+/*Table*/
+thead tr {
+  background-color: grey;
+  color: white;
+}
+
+tbody tr {
+  cursor: pointer;
+}
+
+#change-email-form {
+  display: none;
+  padding-bottom: 5px;
+}
+
+#change-pwd-form {
+  display: none;
+  padding-bottom: 5px;
+}

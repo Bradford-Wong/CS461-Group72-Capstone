@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>MyVetPath | Login</title>
+  <!--sitepath: http://people.oregonstate.edu/~jeffreyk/myvetpath/ -->
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="stylesheets/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Caudex" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="myvetpathstyle.css" media="screen">
+  <script src="control.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid" style="margin: auto; width: 50%;">
+    <h1 id="header">
+      Oregon Veterinary Diagnostics Laboratory
+    </h1>
+    <p>
+      Portal for the OVDL remote diagnostics app
+    </p>
+    <form action="submissions.html">
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+    <p style="margin-top: 15px;">
+      Don't have an account?
+    </p>
+    <a href="http://people.oregonstate.edu/~jeffreyk/myvetpath/register.html" class="btn btn-success" role="button" style="margin-top: 5px;">Register New Account</a>
+  </div>
+</body>
+</html>
