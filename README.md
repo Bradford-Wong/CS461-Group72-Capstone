@@ -34,3 +34,9 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
   G. Click on the “Finish” button on the “Verify Configuration” page
 17. Click on an available virtual device and then click on the “OK” button
 18. The emulator will now launch and our application should automatically install and open up
+
+## Setup MySql Server
+1. Run the Script MySQLInstall on a Ubuntu machine using Bash.
+2. Once the install script is completed Stary the mysql shell by typing, mysql -u root
+3. Once the mysql shell has started copy the text from the text file "Create Database SQL"
+4. The mysql tables have been created with the proper constraints.
