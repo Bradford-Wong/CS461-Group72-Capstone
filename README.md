@@ -1,6 +1,6 @@
 # CS391-Group72-Capstone
 For project #72 (Field diagnostics app) and individual written assignments
-The actual Android project can be located here: https://github.com/jeffreykat/MyVetPath. We couldn't add an Android project into this repository.
+The actual Android project can be located here: https://github.com/jeffreykat/MyVetPath. We had difficulty using Android Studio with this repository, which is why we made a separate repository for just the Android application.
 
 
 # Build Instructions
