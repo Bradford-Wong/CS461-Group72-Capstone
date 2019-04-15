@@ -38,7 +38,11 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
 ## Setup MySql Server
 1. Run the Script MySQLInstall on a Ubuntu machine using Bash. Command: "bash MySQLInstall"
 2. When Prompeted, "This operation will take X Space. Do you want to continue?"
-2. Once the install script is completed Stary the mysql shell by typing, "sudo mysql -u root"
-3. Once the mysql shell has started ctrl-A the text from the file "Create Database SQL" and past the command 
-4. The mysql tables have been created with the proper constraints.
+3. Once the install script is completed Stary the mysql shell by typing, "sudo mysql -u root"
+4. Once the mysql shell has started ctrl-A the text from the file "Create Database SQL" 
+5. Past the text in the command line. (It should start running the sql)
+6. Once the command is finished run sql, "SHOW DATABASES;"
+7. After the database My_Vet_Path is there then run the sql, "USE My_Vet_Path;"
+8. To see a list of the tables run the sql, "SHOW tables;
+9. To see the create statements for the sql, "SHOW CREATE TABLE tableName;"
 
