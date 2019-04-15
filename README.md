@@ -44,5 +44,5 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
 6. Once the command is finished run sql, "SHOW DATABASES;"
 7. After the database My_Vet_Path is there then run the sql, "USE My_Vet_Path;"
 8. To see a list of the tables run the sql, "SHOW tables;"
-9. To see the create statements for the sql, "SHOW CREATE TABLE tableName;"
+9. To see the create statements for the sql, "SHOW CREATE TABLE `tableName`;"
 
