@@ -4,7 +4,13 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
 
 
 # Build Instructions
-## Set Up Android Studio
+## Install Android App with APK
+1. Copy app-release.apk to Android phone storage. 
+2. On phone select apk file in storage and run install. 
+3. Check box to allow installations from unknown sources in Settings if not already checked. 
+4. Wait for installation to complete and open app. 
+
+## Alternative: Set Up Android Studio
 1. Download and run the Android Studio installation setup wizard here: https://developer.android.com/studio
 2. The wizard will ask you if you want to install “Android Studio” and “Android Virtual Device”. Make sure both boxes are checked and click    “Next”
 3. The wizard will then ask you where you want to install Android studio. Choose where you want to put it and click on “Next”
