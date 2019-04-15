@@ -36,8 +36,9 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
 18. The emulator will now launch and our application should automatically install and open up
 
 ## Setup MySql Server
-1. Run the Script MySQLInstall on a Ubuntu machine using Bash.
-2. Once the install script is completed Stary the mysql shell by typing, mysql -u root
+1. Run the Script MySQLInstall on a Ubuntu machine using Bash. Command: "Bash MySQLInstall"
+2. When Prompeted, "This operation will take X Space. Do you want to continue?"
+2. Once the install script is completed Stary the mysql shell by typing, "sudo mysql -u root"
 3. Once the mysql shell has started ctrl-A the text from the file "Create Database SQL"
 4. The mysql tables have been created with the proper constraints.
 
