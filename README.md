@@ -10,6 +10,8 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
 3. Check box to allow installations from unknown sources in Settings if not already checked. 
 4. Wait for installation to complete and open app. 
 
+We have done most of our testing using an Android emulator with an API level of 27. If you use an older phone, it is possible that the phone won't be able to use some of the features. If that happens to you, then try using Android Studio (instructions below).
+
 ## Alternative: Set Up Android Studio
 1. Download and run the Android Studio installation setup wizard here: https://developer.android.com/studio
 2. The wizard will ask you if you want to install “Android Studio” and “Android Virtual Device”. Make sure both boxes are checked and click    “Next”
@@ -40,6 +42,8 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
   G. Click on the “Finish” button on the “Verify Configuration” page
 17. Click on an available virtual device and then click on the “OK” button
 18. The emulator will now launch and our application should automatically install and open up
+
+It is possible that you might get problems when you first build the app (but everything should work fine the first time). Common fixes are to first clean the project (go to "build" -> "clean project") and then do a gradle resync (go to "file" -> "Sync Project With Gradle Files").
 
 ## Setup MySql Server
 1. Run the Script MySQLInstall on a Ubuntu machine using Bash. Command: "bash MySQLInstall" (Found in this repo on the front page above Readme)
