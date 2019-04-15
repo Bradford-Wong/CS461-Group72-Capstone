@@ -34,3 +34,15 @@ The actual Android project can be located here: https://github.com/jeffreykat/My
   G. Click on the “Finish” button on the “Verify Configuration” page
 17. Click on an available virtual device and then click on the “OK” button
 18. The emulator will now launch and our application should automatically install and open up
+
+## Setup MySql Server
+1. Run the Script MySQLInstall on a Ubuntu machine using Bash. Command: "bash MySQLInstall" (Found in this repo on the front page above Readme)
+2. When prompted, "This operation will take X Space. Do you want to continue?" type, "y"
+3. Once the install script is completed, start the mysql shell by typing, "sudo mysql -u root"
+4. Once the mysql shell has started, copy the text from the file "Create Database SQL" (Found in this repo on the front page above ReadMe)
+5. Paste and enter the text in the command line. (It should start running the sql)
+6. Once the command is finished run, "SHOW DATABASES;"
+7. After the database My_Vet_Path is displayed, then run the sql command, "USE My_Vet_Path;"
+8. To see a list of the tables run the sql, "SHOW tables;"
+9. To see the create statements for a table, run the sql, "SHOW CREATE TABLE \`tableName\`;" 
+

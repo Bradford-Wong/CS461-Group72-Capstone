@@ -1,0 +1,102 @@
+
+
+CREATE DATABASE `My_Vet_Path` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `My_Vet_Path`;
+CREATE TABLE `Group` (
+  `Group_ID` int(11) NOT NULL,
+  `GroupName` varchar(255) NOT NULL,
+  `DateOfCreation` date NOT NULL,
+  PRIMARY KEY (`Group_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `User` (
+  `User_ID` int(11) NOT NULL,
+  `UserName` varchar(255) NOT NULL,
+  `Password` varchar(255) NOT NULL,
+  `Authorized` int(11) DEFAULT NULL,
+  `FirstName` varchar(45) NOT NULL,
+  `LastName` varchar(45) NOT NULL,
+  `Phone` varchar(45) NOT NULL,
+  `Email` varchar(45) NOT NULL,
+  `Position` varchar(45) DEFAULT NULL,
+  `Security Level` int(11) DEFAULT NULL,
+  PRIMARY KEY (`User_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `Submission` (
+  `Master_ID` int(11) NOT NULL,
+  `Client_ID` int(11) NOT NULL,
+  `Group_ID` int(11) DEFAULT NULL,
+  `Case_ID` int(11) NOT NULL,
+  `Title` varchar(20) DEFAULT NULL,
+  `DateOfCreation` datetime NOT NULL,
+  `StatusFlag` int(11) DEFAULT NULL,
+  `Submitted` datetime DEFAULT NULL,
+  `ReportComplete` tinyint(4) DEFAULT NULL,
+  `UserComment` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`Master_ID`),
+  KEY `GroupForSubmission_idx` (`Group_ID`),
+  KEY `ClientForSubmission_idx` (`Client_ID`),
+  CONSTRAINT `ClientForSubmission` FOREIGN KEY (`Client_ID`) REFERENCES `User` (`User_ID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `GroupForSubmission` FOREIGN KEY (`Group_ID`) REFERENCES `Group` (`Group_ID`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `Patient` (
+  `Patient_ID` int(11) NOT NULL,
+  `Master_ID` int(11) NOT NULL,
+  `PatientName` varchar(255) NOT NULL,
+  `Species` varchar(255) NOT NULL,
+  `Sex` varchar(1) NOT NULL,
+  `Euthanized` tinyint(1) NOT NULL,
+  `DateOfBirth` datetime NOT NULL,
+  `DateOfDeath` datetime NOT NULL,
+  PRIMARY KEY (`Patient_ID`,`Master_ID`),
+  KEY `MasterForSick_idx` (`Master_ID`),
+  CONSTRAINT `MasterForSick` FOREIGN KEY (`Master_ID`) REFERENCES `Submission` (`Master_ID`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `Picture` (
+  `Image_ID` int(11) NOT NULL,
+  `Master_ID` int(11) NOT NULL,
+  `ImagePath` varchar(255) NOT NULL,
+  `Title` varchar(255) DEFAULT NULL,
+  `Latitude` bigint(20) NOT NULL,
+  `Longitude` bigint(20) NOT NULL,
+  `DateTaken` datetime NOT NULL,
+  PRIMARY KEY (`Image_ID`,`Master_ID`),
+  KEY `MasterIDT_idx` (`Master_ID`),
+  CONSTRAINT `MasterIDForPicture` FOREIGN KEY (`Master_ID`) REFERENCES `Submission` (`Master_ID`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `Reply` (
+  `Reply_ID` int(11) NOT NULL,
+  `Internal_ID` int(11) DEFAULT NULL,
+  `Sender_ID` int(11) DEFAULT NULL,
+  `Reciever_ID` int(11) DEFAULT NULL,
+  `ContentsOfMessage` varchar(255) DEFAULT NULL,
+  `DateOfMessage` datetime DEFAULT NULL,
+  PRIMARY KEY (`Reply_ID`),
+  KEY `ReplyForSubmission_idx` (`Internal_ID`),
+  CONSTRAINT `ReplyForSubmission` FOREIGN KEY (`Internal_ID`) REFERENCES `Submission` (`Master_ID`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `Report` (
+  `User_ID` int(11) NOT NULL,
+  `Master_ID` int(11) NOT NULL,
+  `SubmissionReview` varchar(255) NOT NULL,
+  `ReportDate` datetime NOT NULL,
+  `Conclusion` varchar(255) DEFAULT NULL,
+  `Attachments` varchar(45) DEFAULT NULL,
+  `DateClosed` datetime DEFAULT NULL,
+  PRIMARY KEY (`User_ID`,`Master_ID`),
+  KEY `MasterIDForReport_idx` (`Master_ID`),
+  CONSTRAINT `MasterIDForReport` FOREIGN KEY (`Master_ID`) REFERENCES `Submission` (`Master_ID`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `PathoForSubmission` FOREIGN KEY (`User_ID`) REFERENCES `User` (`User_ID`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+CREATE TABLE `Sample` (
+  `Sample_ID` int(11) NOT NULL,
+  `Master_ID` int(11) NOT NULL,
+  `LocationOfSample` varchar(255) NOT NULL,
+  `NumberOfSamples` int(11) NOT NULL,
+  `SampleCollectionDate` datetime NOT NULL,
+  `NameOfSample` varchar(255) NOT NULL,
+  PRIMARY KEY (`Sample_ID`,`Master_ID`),
+  KEY `MasterForSample_idx` (`Master_ID`),
+  CONSTRAINT `MasterForSample` FOREIGN KEY (`Master_ID`) REFERENCES `Submission` (`Master_ID`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
