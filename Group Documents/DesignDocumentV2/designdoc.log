@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  19 MAR 2019 12:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2017.8.31)  19 APR 2019 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -187,34 +187,105 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen133
 \Gm@dimlist=\toks16
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen134
+\extrarowheight=\dimen135
+\NC@list=\toks17
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\TX@col@width=\dimen136
+\TX@old@table=\dimen137
+\TX@old@col=\dimen138
+\TX@target=\dimen139
+\TX@delta=\dimen140
+\TX@cols=\count96
+\TX@ftn=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count97
+\mult@box=\box27
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count98
+\c@collectmore=\count99
+\doublecol@number=\count100
+\multicoltolerance=\count101
+\multicolpretolerance=\count102
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip46
+\multicolbaselineskip=\skip47
+\partial@page=\box28
+\last@line=\box29
+\mult@rightbox=\box30
+\mult@grightbox=\box31
+\mult@gfirstbox=\box32
+\mult@firstbox=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\c@columnbadness=\count103
+\c@finalcolumnbadness=\count104
+\last@try=\dimen146
+\multicolovershoot=\dimen147
+\multicolundershoot=\dimen148
+\mult@nat@firstbox=\box51
+\colbreak@box=\box52
+\multicol@sort@counter=\count105
+)
+
+LaTeX Warning: Unused global option(s):
+    [article].
+
 (./designdoc.aux)
 \openout1 = `designdoc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count96
-\scratchdimen=\dimen134
-\scratchbox=\box27
-\nofMPsegments=\count97
-\nofMParguments=\count98
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count99
-\MPscratchDim=\dimen135
-\MPnumerator=\count100
-\makeMPintoPDFobject=\count101
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count106
+\scratchdimen=\dimen149
+\scratchbox=\box53
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen150
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks20
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -297,32 +368,137 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <20> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 49.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/sc' in size <24> not available
-(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 49.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 67.
+(Font)              Font shape `OT1/ppl/b/sc' tried instead on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 69.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 69.
  [1{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 75.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 75.
- (./designdoc.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
- [1])
+(Font)              Font shape `OT1/phv/b/sc' tried instead on input line 77.
+ (./designdoc.toc)
 \tf@toc=\write3
 \openout3 = `designdoc.toc'.
 
- [2]
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]\OT1/ppl/m/n/10 Replaced "NavBut-tons" with
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 223--223
+[]\OT1/ppl/m/n/10 Replaced text with ex-pla-na-tion
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 223--223
+\OT1/ppl/m/n/10 that said the but-tons will be
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 223--223
+[][][] 
+ []
+
+[2
+
+]
+Underfull \hbox (badness 10000) in alignment at lines 306--306
+[][][] 
+ []
+
+[3]
+Underfull \hbox (badness 2600) in paragraph at lines 370--370
+[]\OT1/ppl/m/n/10 App In-struc-tions - Pro-vides a
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 370--370
+[]\OT1/ppl/m/n/10 Deleted part about the back-
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 370--370
+[][][] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+[]|\OT1/ppl/m/n/10 6.2.2 Cre-ate Sub-mis-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--442
+[]\OT1/ppl/m/n/10 Has the user's in-for-ma-tion
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 442--442
+[][][] 
+ []
+
+[5]
+Underfull \hbox (badness 2111) in paragraph at lines 522--522
+\OT1/ppl/m/n/10 up-dated list of what
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
+[]\OT1/ppl/m/n/10 Added de-scrip-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
+\OT1/ppl/m/n/10 "Save Draft', "Add
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
+\OT1/ppl/m/n/10 Sam-ples", and
+ []
+
+[6]
+! Undefined control sequence.
+<recently read> \hlilne 
+                        
+l.559 \end{tabularx}
+                    
+? 
+! Undefined control sequence.
+<recently read> \hlilne 
+                        
+l.559 \end{tabularx}
+                    
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]\OT1/ppl/m/n/10 Added de-scrip-tion about the
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 559--559
+\OT1/ppl/m/n/10 screen and how data is be-ing
+ []
+
+! Undefined control sequence.
+<recently read> \hlilne 
+                        
+l.559 \end{tabularx}
+                    
+? 
+
+Underfull \hbox (badness 10000) in alignment at lines 559--559
+[][][] 
+ []
+
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 87.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 569.
 Missing character: There is no ‚ in font pplr7t!
 Missing character: There is no Ä in font pplr7t!
 Missing character: There is no ô in font pplr7t!
@@ -332,143 +508,152 @@ Missing character: There is no ú in font pplr7t!
 Missing character: There is no ‚ in font pplr7t!
 Missing character: There is no Ä in font pplr7t!
 Missing character: There is no ù in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ù in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ù in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ú in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ù in font pplr7t!
+[7
 
-<homescreen.png, id=17, 190.46156pt x 373.395pt>
+
+
+
+
+]
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ú in font pplr7t!
+Missing character: There is no ‚ in font pplr7t!
+Missing character: There is no Ä in font pplr7t!
+Missing character: There is no ù in font pplr7t!
+ <homescreen.png, id=35, 190.46156pt x 373.395pt>
 File: homescreen.png Graphic file (type png)
  <use homescreen.png>
-Package pdftex.def Info: homescreen.png used on input line 97.
+Package pdftex.def Info: homescreen.png used on input line 579.
 (pdftex.def)             Requested size: 116.1058pt x 227.62204pt.
 
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 99.
+(caption)                outside box or environment on input line 581.
 See the caption package documentation for explanation.
 
-[3
 
- <./homescreen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
 
  []
 
-<menuscreen.png, id=24, 190.46156pt x 371.13657pt>
+<menuscreen.png, id=37, 190.46156pt x 371.13657pt>
 File: menuscreen.png Graphic file (type png)
  <use menuscreen.png>
-Package pdftex.def Info: menuscreen.png used on input line 109.
+Package pdftex.def Info: menuscreen.png used on input line 591.
 (pdftex.def)             Requested size: 116.81491pt x 227.62204pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+[8 <./homescreen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 597--599
 
  []
 
-<createscreen.png, id=25, 197.98969pt x 377.15906pt>
+<createscreen.png, id=42, 197.98969pt x 377.15906pt>
 File: createscreen.png Graphic file (type png)
  <use createscreen.png>
-Package pdftex.def Info: createscreen.png used on input line 118.
+Package pdftex.def Info: createscreen.png used on input line 600.
 (pdftex.def)             Requested size: 119.48956pt x 227.62204pt.
 
-[4 <./menuscreen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+[9 <./menuscreen.png> <./createscreen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
 
  []
 
-<picturesscreen.png, id=30, 194.97844pt x 375.65344pt>
+<picturesscreen.png, id=48, 194.97844pt x 375.65344pt>
 File: picturesscreen.png Graphic file (type png)
 
 <use picturesscreen.png>
-Package pdftex.def Info: picturesscreen.png used on input line 126.
+Package pdftex.def Info: picturesscreen.png used on input line 608.
 (pdftex.def)             Requested size: 118.14528pt x 227.62204pt.
- [5 <./createscreen.png> <./picturesscreen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--624
 
  []
 
-<submissionscreen.png, id=36, 196.48407pt x 372.64218pt>
+[10 <./picturesscreen.png>]
+<submissionscreen.png, id=53, 196.48407pt x 372.64218pt>
 File: submissionscreen.png Graphic file (type png)
 
 <use submissionscreen.png>
-Package pdftex.def Info: submissionscreen.png used on input line 143.
+Package pdftex.def Info: submissionscreen.png used on input line 625.
 (pdftex.def)             Requested size: 120.017pt x 227.62204pt.
 
-<detailsscreen.png, id=37, 195.73125pt x 368.1253pt>
+<detailsscreen.png, id=54, 195.73125pt x 368.1253pt>
 File: detailsscreen.png Graphic file (type png)
  <use detailsscreen.png>
-Package pdftex.def Info: detailsscreen.png used on input line 144.
+Package pdftex.def Info: detailsscreen.png used on input line 626.
 (pdftex.def)             Requested size: 121.02956pt x 227.62204pt.
 Missing character: There is no ‚ in font pplr7t!
 Missing character: There is no Ä in font pplr7t!
 Missing character: There is no ô in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no Ä in font pplr7t!
-Missing character: There is no ô in font pplr7t!
 
-<settingsscreen.png, id=38, 178.41656pt x 338.01282pt>
+<settingsscreen.png, id=55, 178.41656pt x 338.01282pt>
 File: settingsscreen.png Graphic file (type png)
 
 <use settingsscreen.png>
-Package pdftex.def Info: settingsscreen.png used on input line 152.
+Package pdftex.def Info: settingsscreen.png used on input line 634.
 (pdftex.def)             Requested size: 120.151pt x 227.62204pt.
- [6 <./submissionscreen.png> <./detailsscreen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--641
 
  []
 
-<instructionsscreen.png, id=45, 194.97844pt x 374.14781pt>
+[11 <./submissionscreen.png> <./detailsscreen.png> <./settingsscreen.png>]
+<instructionsscreen.png, id=62, 194.97844pt x 374.14781pt>
 File: instructionsscreen.png Graphic file (type png)
 
 <use instructionsscreen.png>
-Package pdftex.def Info: instructionsscreen.png used on input line 160.
+Package pdftex.def Info: instructionsscreen.png used on input line 642.
 (pdftex.def)             Requested size: 118.62129pt x 227.62204pt.
- [7 <./settingsscreen.png> <./instructionsscreen.png>] <ER_diagram.png, id=51, 
-1060.96375pt x 542.025pt>
-File: ER_diagram.png Graphic file (type png)
- <use ER_diagram.png>
-Package pdftex.def Info: ER_diagram.png used on input line 170.
-(pdftex.def)             Requested size: 445.55316pt x 227.62204pt.
+ <My_Vet_Path.png, id=63, 946.53625pt x 393.47pt>
+File: My_Vet_Path.png Graphic file (type png)
 
-[8 <./ER_diagram.png>] [9] [10] [11]
+<use My_Vet_Path.png>
+Package pdftex.def Info: My_Vet_Path.png used on input line 652.
+(pdftex.def)             Requested size: 547.56157pt x 227.62204pt.
+
+Overfull \hbox (41.67157pt too wide) in paragraph at lines 652--653
+[][] 
+ []
+
+[12 <./instructionsscreen.png>] [13 <./My_Vet_Path.png>] [14] [15] [16]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 323.
- [12] [13] [14] [15] [16] [17] [18]
-(./designdoc.aux) ) 
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 789.
+
+[17] [18] [19] [20] [21] (./designdoc.aux) ) 
 Here is how much of TeX's memory you used:
- 3904 strings out of 495063
- 63549 string characters out of 3182201
- 123673 words of memory out of 3000000
- 7038 multiletter control sequences out of 15000+200000
+ 4090 strings out of 495063
+ 66074 string characters out of 3182201
+ 140241 words of memory out of 3000000
+ 7214 multiletter control sequences out of 15000+200000
  45651 words of font info for 92 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,6n,38p,930b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
-latino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on designdoc.pdf (19 pages, 390927 bytes).
+ 38i,11n,38p,935b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
+alatino/uplri8a.pfb>
+Output written on designdoc.pdf (22 pages, 394305 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
